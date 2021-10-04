@@ -1,1 +1,1 @@
-alert("Учу JS test!");
+alert("Учу JS testddd!");
