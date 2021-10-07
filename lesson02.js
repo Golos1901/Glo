@@ -1,10 +1,6 @@
 let title = "Project";
 console.log(typeof title);
-var screens = "Простые , Сложные , Интерактивные , ";
-var mas = screens.split(',');
-for (var i = 0; i < mas.length; i++) {
-    document.write(mas[i])
-};
+let screens = ("Простые, Сложные, Интерактивные");
 
 let screenPrice = 40;
 let rollback = 30;
@@ -13,6 +9,8 @@ console.log(typeof fullPrice);
 let adaptiv = true;
 console.log(typeof adaptiv);
 console.log(screens.length);
+
 console.log(screens.toLowerCase());
+console.log(screens.split());
 
 console.log(fullPrice * (rollback / 100));
